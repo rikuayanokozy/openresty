@@ -755,7 +755,6 @@ static ngx_keyval_t  ngx_http_proxy_headers[] = {
 
 static ngx_str_t  ngx_http_proxy_hide_headers[] = {
     ngx_string("Date"),
-    ngx_string("Server"),
     ngx_string("X-Pad"),
     ngx_string("X-Accel-Expires"),
     ngx_string("X-Accel-Redirect"),
